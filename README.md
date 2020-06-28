@@ -1,4 +1,4 @@
-# scratch-card 基于canvas刮刮卡
+# scratch-card-canvas 基于canvas刮刮卡
 
 ## 安装
 ``` js
@@ -26,4 +26,4 @@ new ScratchCard({
 | callback | function | 绘制完成回调函数 | false | void |
 
 ## 更新日志
-[链接](./CHANGELOG.MD)
+[链接](./CHANGELOG.md)
