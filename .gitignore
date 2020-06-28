@@ -1,0 +1,5 @@
+.idea
+node_modules
+test
+yarn.lock
+.DS_Store

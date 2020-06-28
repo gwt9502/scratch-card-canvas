@@ -1,0 +1,26 @@
+{
+  "name": "scratch-card-canvas",
+  "version": "1.0.0",
+  "description": "刮刮卡",
+  "main": "./dist/main.js",
+  "module": "./es/index.js",
+  "postCompile": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc --declaration true --declarationDir types -w && rollup -c -w",
+    "rollup": "rollup -c -w"
+  },
+  "author": "gwt",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "rollup": "^2.17.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {}
+}
